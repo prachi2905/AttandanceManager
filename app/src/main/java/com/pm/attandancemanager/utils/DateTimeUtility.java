@@ -1,10 +1,6 @@
 package com.pm.attandancemanager.utils;
 
-/**
- * @author ghanshyamnayma on 14/06/17.
- * @file TODO: Add a class header comment!
- * @copyright ABOVE Solutions India Pvt. Ltd.All Rights Reserved.
- */
+
 
 public class DateTimeUtility {
 

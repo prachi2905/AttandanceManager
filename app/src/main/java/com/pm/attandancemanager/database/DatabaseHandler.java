@@ -13,9 +13,6 @@ import com.pm.attandancemanager.models.Students;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by ghanshyamnayma on 08/10/17.
- */
 
 public class DatabaseHandler extends SQLiteOpenHelper {
     private static final int DATABASE_VERSION = 1;

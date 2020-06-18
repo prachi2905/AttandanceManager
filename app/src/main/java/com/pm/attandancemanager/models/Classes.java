@@ -2,9 +2,6 @@ package com.pm.attandancemanager.models;
 
 import com.raizlabs.android.dbflow.structure.BaseModel;
 
-/**
- * Created by ghanshyamnayma on 08/10/17.
- */
 
 public class Classes extends BaseModel{
 

@@ -21,9 +21,6 @@ import com.pm.attandancemanager.utils.Constants;
 import java.text.DecimalFormat;
 import java.util.List;
 
-/**
- * Created by ghanshyamnayma on 28/10/17.
- */
 
 public class StudentDateRecordAdapter extends RecyclerView.Adapter<StudentDateRecordAdapter.ViewHolder> {
 

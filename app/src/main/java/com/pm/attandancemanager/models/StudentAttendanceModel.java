@@ -1,8 +1,6 @@
 package com.pm.attandancemanager.models;
 
-/**
- * Created by ghanshyamnayma on 08/10/17.
- */
+
 
 public class StudentAttendanceModel {
     private String name;

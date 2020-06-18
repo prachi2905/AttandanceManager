@@ -5,9 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.support.v4.content.ContextCompat;
 
-/**
- * Created by ghanshyamnayma on 23/06/16.
- */
+
 @SuppressWarnings("deprecation")
 public class AndroidVersionUtility {
 

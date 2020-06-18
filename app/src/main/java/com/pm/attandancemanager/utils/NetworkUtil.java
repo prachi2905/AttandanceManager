@@ -1,8 +1,5 @@
 package com.pm.attandancemanager.utils;
 
-/**
- * Created by ghanshyamnayma on 22/09/15.
- */
 
 import android.content.Context;
 import android.net.ConnectivityManager;

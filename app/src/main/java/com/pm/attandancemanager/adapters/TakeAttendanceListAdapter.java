@@ -27,9 +27,7 @@ import java.util.Date;
 import java.util.List;
 
 
-/**
- * Created by ghanshyamnayma on 12/07/17 on 23/5/17.
- */
+
 
 public class TakeAttendanceListAdapter extends RecyclerView.Adapter<TakeAttendanceListAdapter.ViewHolder> {
 

@@ -22,9 +22,6 @@ import com.pm.attandancemanager.utils.DialogUtils;
 import java.util.List;
 
 
-/**
- * Created by ghanshyamnayma on 12/07/17 on 23/5/17.
- */
 
 public class StudentsListAdapter extends RecyclerView.Adapter<StudentsListAdapter.ViewHolder> {
 

@@ -2,9 +2,7 @@ package com.pm.attandancemanager.models;
 
 import java.io.Serializable;
 
-/**
- * Created by ghanshyamnayma on 28/10/17.
- */
+
 
 public class DateModel implements Serializable {
 

@@ -3,9 +3,7 @@ package com.pm.attandancemanager.utils;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by ghanshyamnayma on 09/02/16.
- */
+
 public class Validation {
 
     // email validation
@@ -18,11 +16,6 @@ public class Validation {
         return matcher.matches();
     }
 
-    /**
-     * @param pass:      String variable for password
-     * @param minLength: this defines minimum length of password
-     * @method called when Password validation requires
-     */
     public static boolean isValidPassword(String pass, int minLength) {
         if (pass != null && pass.length() >= minLength) {
             return true;
