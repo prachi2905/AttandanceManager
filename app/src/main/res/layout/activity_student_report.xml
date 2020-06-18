@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.pm.attandancemanager.activities.StudentReportActivity">
+
+    <include
+        android:id="@+id/toolbar_view_report"
+        layout="@layout/toolbar_layout" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_width="match_parent"
+        android:id="@+id/pie_chart"
+        android:background="@color/white"
+        android:layout_below="@+id/toolbar_view_report"
+        android:layout_height="@dimen/two_hundred"
+        android:visibility="invisible"
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="@dimen/twenty_dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thirty_dp"
+        android:background="@color/white"
+        android:layout_alignBottom="@+id/pie_chart"/>
+
+    <TextView
+        android:id="@+id/tv_alert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:visibility="visible"
+        android:text="Please take Attendance to see the record"
+        android:layout_centerInParent="true"/>
+
+    <LinearLayout
+        android:id="@+id/tv_colors"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pie_chart"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/twenty_dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/viewColor1"
+            style="@style/chart_color_views"
+            android:background="@color/color_present" />
+
+        <TextView
+            android:id="@+id/tv_presents"
+            style="@style/header_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewColor1"
+            android:text="Present"
+            android:textColor="@color/color_present" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <View
+            android:id="@+id/viewColor2"
+            style="@style/chart_color_views"
+            android:background="@color/color_absent" />
+
+        <TextView
+            android:id="@+id/tv_absents"
+            style="@style/header_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewColor2"
+            android:text="Absent"
+            android:textColor="@color/color_absent" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <View
+            android:id="@+id/viewColor3"
+            style="@style/chart_color_views"
+            android:background="@color/color_leave" />
+
+        <TextView
+            android:id="@+id/tv_leaves"
+            style="@style/header_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewColor3"
+            android:text="Leave"
+            android:textColor="@color/color_leave" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <View
+            android:id="@+id/viewColor4"
+            style="@style/chart_color_views"
+            android:background="@color/color_late" />
+
+        <TextView
+            android:id="@+id/tv_late"
+            style="@style/header_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/viewColor4"
+            android:text="Late"
+            android:textColor="@color/color_late" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+</RelativeLayout>

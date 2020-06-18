@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appColor"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/ten_dp"
+        android:text="@string/add_new_student"
+        android:textColor="@color/white"
+        android:textSize="@dimen/eighteen_sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_dialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:hint="@string/name"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        android:maxLines="1" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/et_dialog_roll_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:hint="@string/roll_number"
+        android:imeOptions="actionNext"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_dialog_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/five_dp"
+        android:hint="@string/section"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="1"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/ten_dp"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:gravity="end"
+        android:padding="@dimen/five_dp">
+
+        <TextView
+            android:id="@+id/tv_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:layout_toStartOf="@+id/tv_cancel"
+            android:padding="@dimen/seven_dp"
+            android:text="@string/save"
+            android:textAllCaps="true"
+            android:textColor="@color/appColor" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/seven_dp"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textColor="@color/appColor" />
+    </RelativeLayout>
+
+</LinearLayout>

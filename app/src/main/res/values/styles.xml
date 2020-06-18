@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AttendanceTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryAttendance</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkAttendance</item>
+        <item name="colorAccent">@color/colorAccentAttendance</item>
+    </style>
+
+    <style name="ReportsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryReports</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkReports</item>
+        <item name="colorAccent">@color/colorAccentReports</item>
+    </style>
+
+    <style name="StudentsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryStudents</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkStudents</item>
+        <item name="colorAccent">@color/colorAccentStudents</item>
+    </style>
+
+    <!-- Splash Screen Theme-->
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+
+    </style>
+
+    <!-- theme used for tool bar-->
+    <style name="MyMaterialTheme" parent="MyMaterialTheme.Base"></style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <!-- Tab Layout theme -->
+    <style name="TabMaterialTheme" parent="TabMaterialTheme.Base"></style>
+
+    <style name="TabMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="chart_color_views">
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_width">14dp</item>
+    </style>
+
+    <!-- styles for PIE Chart -->
+    <style name="header_values">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="sub_header_values">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/appColor</item>
+    </style>
+</resources>

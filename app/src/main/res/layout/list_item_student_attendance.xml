@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/eight_dp"
+    android:layout_marginStart="@dimen/eight_dp"
+    android:layout_marginTop="@dimen/five_dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten_dp">
+
+        <TextView
+            android:id="@+id/tv_student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textAllCaps="true"
+            android:textColor="@color/appColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_total_presents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/6"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="true"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:textColor="@color/appColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_roll_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_student_name"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/five_dp"
+            android:text="Roll Number 0839EC121022"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_roll_number"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <RadioButton
+                android:id="@+id/present"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/present" />
+
+            <RadioButton
+                android:id="@+id/absent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/absent" />
+
+            <RadioButton
+                android:id="@+id/late"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/late" />
+
+            <RadioButton
+                android:id="@+id/leave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/leave" />
+        </RadioGroup>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

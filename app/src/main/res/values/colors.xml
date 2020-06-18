@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <!-- <color name="colorPrimary">#6a1b9a</color>
+    <color name="colorPrimaryDark">#38006b</color>
+    <color name="colorAccent">#b71c1c</color>-->
+
+    <color name="colorPrimary">#0097a7</color>
+    <color name="colorPrimaryDark">#00bcd4</color>
+    <color name="colorAccent">#FFCE00</color>
+
+ <color name="colorPrimaryAttendance">#4CAF50</color>
+    <color name="colorPrimaryDarkAttendance">#1B5E20</color>
+    <color name="colorAccentAttendance">#0288D1</color>
+
+    <color name="colorPrimaryReports">#673AB7</color>
+    <color name="colorPrimaryDarkReports">#311B92</color>
+    <color name="colorAccentReports">#FFEB3B</color>
+
+    <color name="colorPrimaryStudents">#FF9800</color>
+    <color name="colorPrimaryDarkStudents">#FF9800</color>
+    <color name="colorAccentStudents">#8D6E63</color>
+    <color name="appColorAccent">#FFCE00</color>
+
+
+    <color name="appColor">#0097a7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#E6E7E9</color>
+    <color name="black">#000000</color>
+    <color name="green">#6EA038</color>
+    <color name="red">#CC3636</color>
+    <color name="light_grey">#E2E2E2</color>
+
+   <color name="color_present">#008000</color>
+   <color name="color_absent">#FF0000</color>
+   <color name="color_leave">#808000</color>
+   <color name="color_late">#800080</color>
+    <color name="appColorYellow">#FFCE00</color>
+
+</resources>

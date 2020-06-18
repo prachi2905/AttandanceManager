@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Offline Attendance Manager</string>
+
+    <string name="title_activity_home">Attendance Manager</string>
+
+    <string name="classes">Classes</string>
+    <string name="attendance">Attendance</string>
+    <string name="reports">Reports</string>
+    <string name="students">Students</string>
+    <string name="submit">Submit</string>
+    <string name="leave">Leave</string>
+    <string name="late">Late</string>
+    <string name="absent">Absent</string>
+    <string name="present">Present</string>
+    <string name="add_new_student">Add new students</string>
+    <string name="name">Name</string>
+    <string name="roll_number">Roll number</string>
+    <string name="section">Section (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_new_class">Add Class</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add_subject_and_classes_here">Add Subject and Classes here</string>
+    <string name="no_subject_or_classes_found">Subjects are not added</string>
+    <string name="no_students_found">No Student/Classes found</string>
+    <string name="add_classes_subject_here">Add Subject here</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share">Share</string>
+    <string name="no_records_found">No records found</string>
+    <string name="menu_delete">Delete</string>
+    <string name="add_student_here">Add Student here</string>
+</resources>

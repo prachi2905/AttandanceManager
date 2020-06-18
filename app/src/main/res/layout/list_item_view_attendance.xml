@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/eight_dp"
+    android:layout_marginStart="@dimen/eight_dp"
+    android:layout_marginTop="@dimen/five_dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ten_dp">
+
+        <TextView
+            android:id="@+id/tv_student_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textAllCaps="true"
+            android:textColor="@color/appColor"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:background="@drawable/round_bg_green"
+            android:layout_toStartOf="@+id/tv_total_presents"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/seven_dp"
+            android:minWidth="@dimen/seventy_dp"
+            android:paddingTop="@dimen/three_dp"
+            android:paddingBottom="@dimen/three_dp"
+            android:paddingEnd="@dimen/seven_dp"
+            android:textSize="@dimen/twelve_sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_total_presents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/6"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="true"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:textColor="@color/appColor"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
